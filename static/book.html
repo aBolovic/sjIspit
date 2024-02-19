@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1>User</h1>
+  <table class="table table-striped">
+        <thead>
+            <tr>
+                <th> Title </th>
+                <th> Author </th>
+                <th> year_of_publication </th>
+                <th> genre </th>
+            </tr>
+        </thead>
+        <tbody id="book">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form id="addBookForm">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="author" placeholder="Author">
+        <input type="text" id="year_of_publication" placeholder="year_of_publication">
+        <input type="text" id="genre" placeholder="Genre">
+        <button type="submit">Add Book</button>
+    </form>
+
+    
+</div>
+
+
+<script src="book.js">
+
+</script>
+
+</body>
+</html>
